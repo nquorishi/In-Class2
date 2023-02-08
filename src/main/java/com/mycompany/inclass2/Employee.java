@@ -50,5 +50,8 @@ public class Employee {
         if (salary > 0) {
             this.salary = salary;
         }
+        else {
+            this.salary = 00.00;
+        }
     }
 }
