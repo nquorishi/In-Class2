@@ -11,13 +11,21 @@ package com.mycompany.inclass2;
  */
 public class EmployeeTest {
     public static void main(String[] args) {
-        Employee empl1 = new Employee();
+        Employee empl1 = new Employee("Muhammad", "Ali", 100000.00);
         Employee empl2 = new Employee("Mike", "Smith", 60000.00);
         
         
         // OUTPUT: 
+        // Employee 1:
+        System.out.print("Employee 1 - Name:\t");
+        System.out.println(empl1.getFname() + " " + empl1.getLname());
+        
+        System.out.print("Employee 1 - Salary:\t");
+        System.out.println(empl1.getSalary());
+        
+        // Employee 2:
         System.out.print("Employee 2 - Name:\t");
-        System.out.println(empl2.getFname() + empl2.getLname());
+        System.out.println(empl2.getFname() + " " + empl2.getLname());
         
         System.out.print("Employee 2 - Salary:\t");
         System.out.println(empl2.getSalary());
