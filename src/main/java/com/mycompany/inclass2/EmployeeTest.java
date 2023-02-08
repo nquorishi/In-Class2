@@ -29,5 +29,17 @@ public class EmployeeTest {
         
         System.out.print("Employee 2 - Salary:\t");
         System.out.println(empl2.getSalary());
+        
+        
+        // RAISE:
+        empl1.getSalary();
+        empl2.getSalary();
+        
+        System.out.println("\nAfter Raise:");
+        System.out.print("Employee 1 - Salary:\t");
+        System.out.println(empl1.getSalary());
+        System.out.print("Employee 2 - Salary:\t");
+        System.out.println(empl2.getSalary());
+        
     }
 }
