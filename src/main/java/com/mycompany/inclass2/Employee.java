@@ -34,7 +34,7 @@ public class Employee {
         return lname;
     }
 
-    public double getSalary() {
+    public double getMonthlySalary() {
         return salary;
     }
     
@@ -46,7 +46,7 @@ public class Employee {
         this.lname = lname;
     }
 
-    public void setSalary(double salary) {
+    public void setMonthlySalary(double salary) {
         if (salary > 0) {
             this.salary = salary;
         }
